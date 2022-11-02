@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="starter-code/assets/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="crew-body">
+
+  <header class="flex primary-header">
+    <div class="logo flex">
+      <img src="starter-code/assets/shared/logo.svg" alt="">
+    </div>
+    <button class="mobile-nav-toggle none" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only">
+        menu
+      </span>
+    </button>
+    <nav class="primary-navigation flex" data-visible="false">
+      <li aria-hidden="true">
+        <a href="index.html">
+          <span>
+            00
+          </span>
+          Home
+        </a>
+      </li>
+      <li aria-hidden="true">
+        <a href="destination-moon.html">
+          <span>
+            01
+          </span>
+          Destination
+        </a>
+      </li>
+      <li aria-hidden="true">
+        <a href="crew-commander.html">
+          <span>
+            02
+          </span>
+          Crew
+        </a>
+      </li>
+      <li aria-hidden="true">
+        <a href="technology-vehicle.html">
+          <span>
+            03
+          </span>
+          Technology
+        </a>
+      </li>
+    </nav>
+  </header>
+  <div class="crew-container container flex align-center space-around">
+    <div class="crew-data flex column">
+      <h2>
+        <span>
+          02
+        </span>
+        Meet your crew
+      </h2>
+
+      <h2 class="crew-rank" id="crew-rank">
+      </h2>
+      <h1 class="crew-name" id="crew-name">
+      </h1>
+      <p class="crew-description" id="crew-description">
+
+      </p>
+      <div class="crew-selector flex">
+        <button id="crew1">
+        </button>
+        <button id="crew2">
+        </button>
+        <button id="crew3">
+        </button>
+        <button id="crew4">
+        </button>
+      </div>
+    </div>
+    <div>
+      <img class="crew-image" id="crew-image" src="" alt="">
+    </div>
+  </div>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/crew.js"></script>
+  <script src="scripts/data.json"></script>
+</body>
+
+</html>
